@@ -1,0 +1,20 @@
+{
+  "extends": "./tsconfig.json",
+  "include": [
+    "src/**/*.ts",
+    "commons/**/*.ts",
+    "utils/**/*.ts",
+    "annotations/**/*.ts",
+    "testing/**/*.ts",
+    "public_api.ts",
+    "**/*.spec.ts"
+  ],
+  "exclude": [
+    "dist",
+    "rollup.config.ts"
+  ],
+  "compilerOptions": {
+    "rootDir": ".",
+    "module": "commonjs"
+  }
+}
